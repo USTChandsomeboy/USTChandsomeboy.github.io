@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hexo相关操作</title>
-    <url>/2022/12/23/hello-world/</url>
+    <url>/root/2022/12/23/hello-world/</url>
     <content><![CDATA[<h3 id="本地启动"><a href="#本地启动" class="headerlink" title="本地启动"></a>本地启动</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
 
 <h3 id="上传"><a href="#上传" class="headerlink" title="上传"></a>上传</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
