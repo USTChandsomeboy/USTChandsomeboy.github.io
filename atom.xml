@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>(*/ω＼*)</title>
-  <icon>https://ustchandsomeboy.github.io/root/icon.png</icon>
+  <icon>https://ustchandsomeboy.github.io/icon.png</icon>
   
-  <link href="https://ustchandsomeboy.github.io/root/atom.xml" rel="self"/>
+  <link href="https://ustchandsomeboy.github.io/atom.xml" rel="self"/>
   
-  <link href="https://ustchandsomeboy.github.io/root/"/>
+  <link href="https://ustchandsomeboy.github.io/"/>
   <updated>2022-12-23T16:44:32.453Z</updated>
-  <id>https://ustchandsomeboy.github.io/root/</id>
+  <id>https://ustchandsomeboy.github.io/</id>
   
   <author>
     <name>占一</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hexo相关操作</title>
-    <link href="https://ustchandsomeboy.github.io/root/2022/12/23/hello-world/"/>
-    <id>https://ustchandsomeboy.github.io/root/2022/12/23/hello-world/</id>
+    <link href="https://ustchandsomeboy.github.io/2022/12/23/hello-world/"/>
+    <id>https://ustchandsomeboy.github.io/2022/12/23/hello-world/</id>
     <published>2022-12-23T13:01:33.065Z</published>
     <updated>2022-12-23T16:44:32.453Z</updated>
     
@@ -34,7 +34,7 @@
     
     
     
-    <category term="hexo" scheme="https://ustchandsomeboy.github.io/root/categories/hexo/"/>
+    <category term="hexo" scheme="https://ustchandsomeboy.github.io/categories/hexo/"/>
     
     
   </entry>
