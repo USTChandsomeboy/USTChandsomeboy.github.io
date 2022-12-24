@@ -13,4 +13,81 @@
         <category>hexo</category>
       </categories>
   </entry>
+  <entry>
+    <title>搭建个人主页和个人博客</title>
+    <url>/2022/12/25/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%E5%92%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<p>疫情在家，生活过于无聊，为了给自己找点事干，于是就搭建了自己的个人主页和博客</p>
+<h2 id="个人主页"><a href="#个人主页" class="headerlink" title="个人主页"></a>个人主页</h2><p>科大21级前入学的学生网络中心会免费发放300M的服务器，用于搭建个人主页，服务器的地址为<code>home.ustc.edu.cn/~科大邮箱名/</code></p>
+<p>例如<code>http://home.ustc.edu.cn/~zy0119/</code></p>
+<p>校内访问<a href="http://home.ustc.edu.cn/">home.ustc.edu.cn</a>会有一定的教程，例如推荐使用<strong>File Zilla</strong>用于上传文件到服务器，网页内给出了下载链接，下载客户端版本即可</p>
+<p><img src="https://raw.githubusercontent.com/USTChandsomeboy/images/master/img/image-20221224150842948.png" alt="image-20221224150842948"></p>
+<p>下载完成后，在主机名输入<code>home.ustc.edu.cn</code>，用户名即为科大邮箱名，密码为邮箱密码，即可连接上服务器</p>
+<p>建立<code>public_html</code>，之后所有文件均放在该文件夹下</p>
+<p>例如：</p>
+<p><img src="https://raw.githubusercontent.com/USTChandsomeboy/images/master/img/image-20221224151223130.png" alt="image-20221224151223130"></p>
+<p>关于<code>index.html</code>的编写，大家可以去网上找自己喜欢的样式，复制修改即可</p>
+<h2 id="个人博客"><a href="#个人博客" class="headerlink" title="个人博客"></a>个人博客</h2><p>使用hexo+Github Page+PicGo+购买的域名搭建了自己的博客</p>
+<h3 id="第一步-在Github创建仓库"><a href="#第一步-在Github创建仓库" class="headerlink" title="第一步 在Github创建仓库"></a>第一步 在Github创建仓库</h3><p><img src="https://raw.githubusercontent.com/USTChandsomeboy/images/master/img/image-20221224151629383.png" alt="image-20221224151629383"></p>
+<p>注意，这里的仓库名字一定要是<code>你Github的名字.github.io</code>，问就是我之前没这么弄就失败了</p>
+<p>进入仓库后点击<code>Setting</code>再点击<code>Pages</code>，将<code>None</code>换成<code>master</code>，再点击<code>Save</code>。Github将会自动替你创建出一个<code>pages</code>的页面。 如果配置没有问题，大约几分钟之后，<code>yourname.github.io</code>这个网址就可以正常访问了</p>
+<p><img src="https://raw.githubusercontent.com/USTChandsomeboy/images/master/img/image-20221224152114233.png" alt="image-20221224152114233"></p>
+<h3 id="第二步-hexo的安装"><a href="#第二步-hexo的安装" class="headerlink" title="第二步 hexo的安装"></a>第二步 hexo的安装</h3><p>这里默认大家电脑里有node.js了</p>
+<ul>
+<li>安装hexo</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br><span class="line">hexo -v    //查看版本</span><br></pre></td></tr></table></figure>
+
+<p>初始化一个文件夹</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init MyBlogs</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">cd</span> MyBlogs //进入这个MyBlogs文件夹</span><br><span class="line">npm install  //安装依赖</span><br></pre></td></tr></table></figure>
+
+<p>在该文件夹下，输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+
+<p><code>hexo cl</code>为<code>hexo clean</code>，<code>hexo g</code>为<code>hexo generate</code>，<code>hexo s</code>为<code>hexo server</code>，上述操作可以在本地生成预览，默认是<code>localhost:4000</code></p>
+<ul>
+<li>配置</li>
+</ul>
+<p>在站点的配置文件<code>.config.yml</code>中修改depoly</p>
+<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://github.com/USTChandsomeboy/USTChandsomeboy.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+
+<p>安装deployer</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+<p><code>hexo d</code>为<code>hexo deploy</code></p>
+<p>即可上传到你的仓库，这里默认大家的ssh是配置好的，<a href="https://username.github.io可以查看到你的helloworld博客了/">https://username.github.io可以查看到你的Helloworld博客了</a></p>
+<h3 id="第三步-hexo博客的编写"><a href="#第三步-hexo博客的编写" class="headerlink" title="第三步 hexo博客的编写"></a>第三步 hexo博客的编写</h3><p>hexo的博客是用Markdown编写的，真的很友好，常用命令如下：</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;文章&quot;</span></span><br><span class="line">hexo new post <span class="string">&quot;文章&quot;</span></span><br><span class="line">hexo new page <span class="string">&quot;页面&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>创建一篇文章后，就会自动生成一个.md文件，上方有个头部，是系统配置的</p>
+<p><img src="https://raw.githubusercontent.com/USTChandsomeboy/images/master/img/image-20221224154212092.png" alt="image-20221224154212092"></p>
+<p>在下面按自己的习惯编写Markdown文件就行了</p>
+<p>美化教程看这个链接就可以了<a href="http://t.csdn.cn/HpAjP">next主题优化</a>，需要先下载next的主题</p>
+<h3 id="第四步-创建图床"><a href="#第四步-创建图床" class="headerlink" title="第四步 创建图床"></a>第四步 创建图床</h3><p>在Github中，创建一个仓库，选择public，随意命名，例如images</p>
+<p>在个人设置中</p>
+<p><img src="https://raw.githubusercontent.com/USTChandsomeboy/images/master/img/image-20221224154651246.png" alt="image-20221224154651246"></p>
+<p>找到Developer settings</p>
+<p><img src="https://raw.githubusercontent.com/USTChandsomeboy/images/master/img/image-20221224154732493.png" alt="image-20221224154732493"></p>
+<p>然后生成token,记录好你的token</p>
+<p><img src="https://raw.githubusercontent.com/USTChandsomeboy/images/master/img/image-20221224154837073.png" alt="image-20221224154837073"></p>
+<p>然后下载<a href="https://github.com/Molunerfinn/picgo/releases">PicGo</a>，按图中设置，如果没有意外的话，就没有意外了，会自动上传到仓库中</p>
+<p><img src="https://raw.githubusercontent.com/USTChandsomeboy/images/master/img/image-20221224154612472.png" alt="image-20221224154612472"></p>
+<p>我们还可以在typora中配置自动上传，在设置中按如下配置即可：</p>
+<p><img src="https://raw.githubusercontent.com/USTChandsomeboy/images/master/img/image-20221224155226616.png" alt="image-20221224155226616"></p>
+<p>点击验证图片上传选项，若失败，则检查端口号是否相同，一般PicGo的端口号都是36677</p>
+<p><img src="https://raw.githubusercontent.com/USTChandsomeboy/images/master/img/image-20221224155327164.png" alt="image-20221224155327164"></p>
+<h3 id="第五步-购买域名"><a href="#第五步-购买域名" class="headerlink" title="第五步 购买域名"></a>第五步 购买域名</h3><p>在阿里云上购买自己的域名，买完后，点击解析，再点击添加记录</p>
+<p><img src="https://raw.githubusercontent.com/USTChandsomeboy/images/master/img/image-20221224155554749.png" alt="image-20221224155554749"></p>
+<p><img src="https://raw.githubusercontent.com/USTChandsomeboy/images/master/img/image-20221224155647615.png" alt="image-20221224155647615"></p>
+<p>最后，我们在我们博客的仓库的settings&#x2F;pages里面，输入自己的域名就全部完成了</p>
+<p><img src="https://raw.githubusercontent.com/USTChandsomeboy/images/master/img/image-20221224155813810.png" alt="image-20221224155813810"></p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+  </entry>
 </search>
