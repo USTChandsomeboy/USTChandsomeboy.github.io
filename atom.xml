@@ -6,7 +6,7 @@
   <link href="https://ustchandsomeboy.github.io/atom.xml" rel="self"/>
   
   <link href="https://ustchandsomeboy.github.io/"/>
-  <updated>2022-12-24T08:05:07.612Z</updated>
+  <updated>2022-12-26T07:35:12.909Z</updated>
   <id>https://ustchandsomeboy.github.io/</id>
   
   <author>
@@ -17,44 +17,82 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>搭建个人主页和个人博客</title>
-    <link href="https://ustchandsomeboy.github.io/2022/12/25/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%E5%92%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://ustchandsomeboy.github.io/2022/12/25/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%E5%92%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
-    <published>2022-12-24T16:01:38.000Z</published>
-    <updated>2022-12-24T08:05:07.612Z</updated>
+    <title>JS学习_Day4</title>
+    <link href="https://ustchandsomeboy.github.io/2022/12/26/JS%E5%AD%A6%E4%B9%A0-Day4/"/>
+    <id>https://ustchandsomeboy.github.io/2022/12/26/JS%E5%AD%A6%E4%B9%A0-Day4/</id>
+    <published>2022-12-26T15:25:17.000Z</published>
+    <updated>2022-12-26T07:35:12.909Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;疫情在家，生活过于无聊，为了给自己找点事干，于是就搭建了自己的个人主页和博客&lt;/p&gt;
-&lt;h2 id=&quot;个人主页&quot;&gt;&lt;a href=&quot;#个人主页&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">真的是新手入门</summary>
     
     
     
-    <category term="hexo" scheme="https://ustchandsomeboy.github.io/categories/hexo/"/>
+    <category term="JavaScript" scheme="https://ustchandsomeboy.github.io/categories/JavaScript/"/>
     
     
   </entry>
   
   <entry>
-    <title>Hexo相关操作</title>
-    <link href="https://ustchandsomeboy.github.io/2022/12/23/hello-world/"/>
-    <id>https://ustchandsomeboy.github.io/2022/12/23/hello-world/</id>
-    <published>2022-12-23T13:01:33.065Z</published>
-    <updated>2022-12-23T16:44:32.453Z</updated>
+    <title>JS学习_Day3</title>
+    <link href="https://ustchandsomeboy.github.io/2022/12/26/JS%E5%AD%A6%E4%B9%A0-Day3/"/>
+    <id>https://ustchandsomeboy.github.io/2022/12/26/JS%E5%AD%A6%E4%B9%A0-Day3/</id>
+    <published>2022-12-26T15:25:09.000Z</published>
+    <updated>2022-12-26T07:35:13.706Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;本地启动&quot;&gt;&lt;a href=&quot;#本地启动&quot; class=&quot;headerlink&quot; title=&quot;本地启动&quot;&gt;&lt;/a&gt;本地启动&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
-        
-      
+    <summary type="html">真的是新手入门</summary>
+    
+    
+    
+    <category term="JavaScript" scheme="https://ustchandsomeboy.github.io/categories/JavaScript/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JS学习_Day2</title>
+    <link href="https://ustchandsomeboy.github.io/2022/12/26/JS%E5%AD%A6%E4%B9%A0-Day2/"/>
+    <id>https://ustchandsomeboy.github.io/2022/12/26/JS%E5%AD%A6%E4%B9%A0-Day2/</id>
+    <published>2022-12-26T15:25:03.000Z</published>
+    <updated>2022-12-26T07:35:14.294Z</updated>
+    
+    
+    <summary type="html">真的是新手入门</summary>
+    
+    
+    
+    <category term="JavaScript" scheme="https://ustchandsomeboy.github.io/categories/JavaScript/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JS学习_Day1</title>
+    <link href="https://ustchandsomeboy.github.io/2022/12/26/JS%E5%AD%A6%E4%B9%A0-Day1/"/>
+    <id>https://ustchandsomeboy.github.io/2022/12/26/JS%E5%AD%A6%E4%B9%A0-Day1/</id>
+    <published>2022-12-26T15:23:55.000Z</published>
+    <updated>2022-12-26T07:35:14.815Z</updated>
+    
+    
+    <summary type="html">真的是新手入门</summary>
+    
+    
+    
+    <category term="JavaScript" scheme="https://ustchandsomeboy.github.io/categories/JavaScript/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>搭建个人主页和个人博客</title>
+    <link href="https://ustchandsomeboy.github.io/2022/12/25/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%E5%92%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://ustchandsomeboy.github.io/2022/12/25/%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E4%B8%BB%E9%A1%B5%E5%92%8C%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2022-12-24T16:01:38.000Z</published>
+    <updated>2022-12-26T07:35:27.194Z</updated>
+    
+    
+    <summary type="html">好烂的过程</summary>
     
     
     
